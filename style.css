@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(185, 18, 68, 0.89);
+}
+
+.odinlogo {
+    display: block;
+    height: 550px;
+    width: auto;
+    margin:  auto;
+}
+
+.header {
+    margin: 0, auto;
+}
+.recipes {
+    display: flex;
+    justify-content: center;
+  
+    padding: 16px 16px 0px 16px;
+    font-family: ;
+}
+
+li {
+    list-style: none;
+    
+   
+    padding: 40px;
+    margin-left: 230px;
+    display: inline-block;
+     
+}
+
+.pizzalogo, 
+.gypsytartlogo {
+    height: 65px;
+    width: auto;
+}
