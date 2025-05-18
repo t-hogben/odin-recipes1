@@ -15,23 +15,87 @@ body {
 .recipes {
     display: flex;
     justify-content: center;
-  
     padding: 16px 16px 0px 16px;
-    font-family: ;
 }
 
-li {
+#list { 
+    display: flex;
     list-style: none;
-    
-   
     padding: 40px;
-    margin-left: 250px;
-    display: inline-block;
+    justify-content: center;
+   
      
 }
 .lasagnalogo,
 .pizzalogo, 
-.gypsytartlogo {
-    height: 65px;
+.gypsytartlogo,
+.returnhome {
+    height: 70px;
     width: auto;
+    padding: 0px 50px 0px 50px;
 }
+
+.logo {
+    float: left;
+    height: 220px;
+    width: auto;
+    margin-top: 70px;
+}
+
+.lasagna {
+    display: inline;
+    height: 600px;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    margin-right: 200px;
+    float:right;
+    border-style: groove;
+    
+}
+
+.lasheader {
+    
+    display: block;
+    height: 110px;
+    width: auto;
+    padding: 100px;
+    
+}
+
+#lashead {
+    margin-bottom: 25px;
+}
+
+.lasrec{
+    height: 80px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.lasingred,
+.methodheader {
+    padding-left: 40px;
+    height: 50px;
+    width: auto;
+    font-size: 30px;
+    margin-top: 50px;
+    
+}
+
+.para{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.laslist {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.returnhome {
+    margin: 30px;
+}
+
