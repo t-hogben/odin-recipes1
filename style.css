@@ -42,7 +42,8 @@ body {
     margin-top: 70px;
 }
 
-.lasagna {
+.lasagna,
+.pizza {
     display: inline;
     height: 600px;
     width: auto;
@@ -53,7 +54,8 @@ body {
     
 }
 
-.lasheader {
+.lasheader,
+.pizzaheader {
     
     display: block;
     height: 110px;
@@ -90,7 +92,8 @@ body {
     margin-bottom: 80px;
 }
 
-.laslist {
+.laslist,
+.pizzalist {
     margin-left: 50px;
     font-size: 20px;
 }
