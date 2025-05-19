@@ -43,7 +43,8 @@ body {
 }
 
 .lasagna,
-.pizza {
+.pizza,
+.gypsyimg {
     display: inline;
     height: 600px;
     width: auto;
@@ -55,20 +56,24 @@ body {
 }
 
 .lasheader,
-.pizzaheader {
+.pizzaheader,
+.gypsyheader {
     
     display: block;
-    height: 110px;
+    height: 120px;
     width: auto;
     padding: 100px;
     
 }
 
-#lashead {
+#lashead,
+#pizzahead {
     margin-bottom: 25px;
 }
 
-.lasrec{
+.lasrec,
+.pizzarec,
+.gypsyrec{
     height: 80px;
     width: auto;
     margin-left: 50px;
@@ -77,7 +82,9 @@ body {
 }
 
 .lasingred,
-.methodheader {
+.methodheader,
+.pizzaingred,
+.gypsyingred {
     padding-left: 40px;
     height: 50px;
     width: auto;
@@ -89,16 +96,21 @@ body {
 .para{
     margin-left: 50px;
     font-size: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .laslist,
-.pizzalist {
+.pizzalist,
+.gypsylist {
     margin-left: 50px;
     font-size: 20px;
 }
 
 .returnhome {
     margin: 30px;
+}
+
+.pizzaheader {
+    
 }
 
